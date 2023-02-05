@@ -4,16 +4,16 @@ import mysql from 'mysql2'; //instalado via npm e importado
 // Configuração a conexão
 const conexao = mysql.createConnection({
     //Local
-        //  host: 'localhost',
-        //  user: 'root',
-        // passowrd: '',
-        // database: 'mobile'
+        //   host: 'localhost',
+        //   user: 'root',
+        //  passowrd: '',
+        //  database: 'mobile'
 
     // Remoto 
-        host: 'ns1046.hostgator.com.br',
-        user: 'suniow89_adriel',
-        password: '440Adriel@',
-        database: 'suniow89_apiadriel'
+         host: 'ns1046.hostgator.com.br',
+         user: 'suniow89_adriel',
+         password: '440Adriel@',
+         database: 'suniow89_apiadriel'
 });
 
 // conectando ao banco de dados
