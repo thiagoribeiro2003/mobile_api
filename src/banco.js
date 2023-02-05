@@ -7,7 +7,7 @@ const conexao = mysql.createConnection({
          host: 'localhost',
          user: 'root',
         passowrd: '',
-        database: 'escola'
+        database: 'mobile'
 
     // Remoto 
     // host: 'ns1046.hostgator.com.br',
