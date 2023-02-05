@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "name": "api-alunos",
+  "version": "1.0.0",
+  "description": "usando node e Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adriel21/tec-api.git"
+  },
+  "author": "Adriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adriel21/tec-api/issues"
+  },
+  "homepage": "https://github.com/Adriel21/tec-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
